@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPM scan</title>
+    <link rel="stylesheet" type="text/css" href="spm_main.css">
+    <link rel="stylesheet" type="text/css" href="scanpage.css">
+    <style>
+      
+    </style>
+
+</head>
+<body>
+    
+    <div class="spm_nav">
+        <ul>
+         <li>
+             <a href="spm_home.html" class="home_link"> HOME </a>
+             <!--do {list-style: none} in css for the marks -->
+         </li>
+         <li>
+             <a href="#" class="cart_link">&#128722; YOUR CART</a>
+         </li>
+         <li>
+             <a href="#" class="help_link">NEED HELP</a>
+         </li>
+        </ul>
+ 
+     </div>
+
+<!-- Camera -->
+    <main id="camera">
+        <!-- Camera sensor -->
+        <canvas id="camera--sensor"></canvas>
+        <!-- Camera view -->
+        <video id="camera--view" autoplay playsinline></video>
+        <!-- Camera output -->
+        <img src="//:0" alt="" id="camera--output">
+        <!-- Camera trigger -->
+        <button id="camera--trigger">SCAN NOW</button>
+    </main>
+
+   
+
+
+
+
+
+   
+    <!-- Reference to your JavaScript file -->
+    <script src="app.js"></script>
+   
+</body>
+</html>
